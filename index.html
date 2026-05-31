@@ -94,7 +94,7 @@
   .stop .info .meta a{color:var(--lake);text-decoration:none;border-bottom:1px dotted var(--lake);font-weight:600;}
   .fallback{margin-top:6px;font-size:.85rem;background:rgba(216,139,43,.12);border-left:3px solid var(--amber);padding:7px 12px;border-radius:3px;color:#6a4a16;}
 
-  .options{padding:2px 22px 20px;}
+  .options{padding:4px 0 6px;}
   .options-title{font-size:.7rem;letter-spacing:.18em;text-transform:uppercase;color:var(--lake);font-weight:700;margin:0 0 12px;border-top:1px dashed var(--line);padding-top:15px;}
   .opt-grid{display:grid;grid-template-columns:1fr 1fr;gap:14px;}
   @media(max-width:600px){.opt-grid{grid-template-columns:1fr;}}
@@ -194,7 +194,7 @@
       <div>
         <h3>Permit Windows to Book (June 1)</h3>
         <ul>
-          <li><span>Tue 7/28 · Sprague Lake</span><b class="req">Bear Lake+ · ~3–5 PM</b></li>
+          <li><span>Tue 7/28 · Sprague Lake</span><b class="req">Bear Lake+ · 1–3 PM</b></li>
           <li><span>Wed 7/29 · Emerald Lake</span><b class="req">Bear Lake+ · 6–8 AM</b></li>
           <li><span>Thu 7/30 · Adams Falls (W)</span><b class="ok">None if in by 9 AM</b></li>
           <li><span>Fri 7/31 · Coyote Valley (W)</span><b class="ok">None if in by 9 AM</b></li>
@@ -228,10 +228,34 @@
     </div>
   </div>
 
+  <!-- RESERVATIONS -->
+  <section id="reservations" style="padding-top:40px;">
+    <div class="sec-head"><h2>Reservations &amp; Confirmations</h2><span class="tag">Booked</span></div>
+    <p class="lead">Locked-in travel and lodging. The Grand Lake cabin is still being researched and will be added once confirmed.</p>
+    <table class="ptable">
+      <thead><tr><th>Travel</th><th>Flight / Vehicle</th><th>When</th><th>Confirmation</th></tr></thead>
+      <tbody>
+        <tr><td>✈ Outbound</td><td>UA690 · Cleveland (CLE) → Denver (DEN)</td><td>Tue 7/28 · 8:55 AM → 10:10 AM</td><td>United · <b>MENJXJ</b></td></tr>
+        <tr><td>✈ Return</td><td>UA619 · Denver (DEN) → Cleveland (CLE)</td><td>Sat 8/1 · 9:40 AM → 2:36 PM</td><td>United · <b>MENJXJ</b></td></tr>
+        <tr><td>🚗 Rental</td><td>National · Midsize luxury SUV</td><td>Pick up DEN 10:00 AM Tue · return DEN Sat</td><td>National · <b>2115330013</b></td></tr>
+      </tbody>
+    </table>
+    <table class="ptable" style="margin-top:18px;">
+      <thead><tr><th>Lodging</th><th>Where</th><th>Confirmation</th></tr></thead>
+      <tbody>
+        <tr><td>Tue 7/28</td><td>The Stanley · Estes Park, CO</td><td>On file</td></tr>
+        <tr><td>Wed–Thu 7/29–30</td><td>Airbnb cabin · Grand Lake, CO</td><td><i>Researching — TBD</i></td></tr>
+        <tr><td>Fri 7/31</td><td>DoubleTree by Hilton DEN Airport</td><td><b>83598710</b></td></tr>
+      </tbody>
+    </table>
+  </section>
+
+  <hr class="rule">
+
   <!-- ITINERARY -->
   <section id="itinerary">
     <div class="sec-head"><h2>The Itinerary</h2><span class="tag">Day by Day</span></div>
-    <p class="lead">The bold pick is our recommendation for each day. Under each, an <b>Easier</b> and a <b>Bigger</b> option to mix and match as a family — every alternate stays within the same permit and timing as the main plan. Start hikes early: parking fills and afternoon thunderstorms are common in July.</p>
+    <p class="lead">The bold pick is our recommendation for each day, with an <b>Easier</b> and a <b>Bigger</b> option right below the hike it applies to — mix and match as a family. Every alternate stays within the same permit and timing as the main plan. Start hikes early: parking fills and afternoon thunderstorms are common in July.</p>
 
     <!-- TUE -->
     <div class="day">
@@ -244,17 +268,17 @@
         <span class="permit req">Permit Required</span>
       </div>
       <div class="day-body">
-        <div class="stop"><div class="time">12:00 PM</div><div class="info"><h4>Land at Denver International (DEN)</h4><p>Pick up the rental, plan ~1.5–2 hrs to Estes Park.</p></div></div>
-        <div class="stop"><div class="time">~2:00 PM</div><div class="info"><h4>Check in — The Stanley Hotel</h4><p>Drop bags, grab a quick lunch in town.</p><div class="meta"><a href="https://maps.google.com/?cid=472349730268219016" target="_blank">📍 Map</a><span>970-577-4000</span></div></div></div>
-        <div class="stop"><div class="time">~3:30 PM</div><div class="info"><h4>Acclimation hike — Sprague Lake</h4><p>Flat ~0.8-mi loop at 8,690 ft with Continental Divide reflections. Gentle on purpose — the best easy first hike in the park, and prime moose territory.</p><div class="meta"><a href="https://maps.google.com/?cid=2523806433070385932" target="_blank">📍 Map</a><span>Bear Lake Road corridor</span></div>
-          <div class="fallback"><b>Fallback (no permit):</b> <b>Lily Lake</b> — flat ~1-mi loop off Hwy 7, Longs Peak views, no reservation needed. <a href="https://maps.google.com/?cid=10231094357975488035" target="_blank" style="color:#6a4a16;">Map</a></div>
+        <div class="stop"><div class="time">10:10 AM</div><div class="info"><h4>Land at Denver (DEN) — UA690 from Cleveland</h4><p>Arrives 10:10 AM. Pick up the National SUV (conf #2115330013), then 1.5–2 hrs to Estes Park.</p></div></div>
+        <div class="stop"><div class="time">12:45 PM</div><div class="info"><h4>Arrive Estes — drop bags at The Stanley</h4><p>Grab a quick lunch in town. The early landing gives you a full, relaxed afternoon.</p><div class="meta"><a href="https://maps.google.com/?cid=472349730268219016" target="_blank">📍 Map</a><span>970-577-4000</span></div></div></div>
+        <div class="stop"><div class="time">1:30 PM</div><div class="info"><h4>Acclimation hike — Sprague Lake</h4><p>Flat 0.8-mi loop at 8,690 ft with Continental Divide reflections. Gentle on purpose — the best easy first hike in the park, and prime moose territory. Book a 1–3 PM Bear Lake+ entry window.</p><div class="meta"><a href="https://maps.google.com/?cid=2523806433070385932" target="_blank">📍 Map</a><span>Bear Lake Road corridor</span></div>
+          <div class="fallback"><b>Fallback (no permit):</b> <b>Lily Lake</b> — flat 1-mi loop off Hwy 7, Longs Peak views, no reservation needed. <a href="https://maps.google.com/?cid=10231094357975488035" target="_blank" style="color:#6a4a16;">Map</a></div>
         </div></div>
-      </div>
-      <div class="options">
-        <div class="options-title">If you're feeling… (all Bear Lake corridor, same permit)</div>
-        <div class="opt-grid">
-          <div class="opt easy"><img loading="lazy" src="https://lh3.googleusercontent.com/place-photos/AJRVUZNmRJaB5IrVzm847RnxdPNK-AxWNSwqkS5i0bQlnJv7tmbeDAQaZZYXCjKizhkYAVkaShPAZJxAimkvFLwdjCJiMyKBYKWekZmxQ8PLDzK4UwJ2tDxyybvv_H7yPkc0LagQgiVJXrqFOnnZHIo=s4800-w800-h600" alt="Bear Lake"><div><span class="lab">◀ Easier</span><h5>Bear Lake loop</h5><p>0.6 mi flat, paved sections, iconic Divide views. The mellowest possible first hike.</p></div></div>
-          <div class="opt big"><img loading="lazy" src="https://lh3.googleusercontent.com/place-photos/AJRVUZPrunWvFREwYyJLVG4Qj9Mxh0ha3xRXjC6tQMXFnz99bR7ZXbzcG8gCXmcFJIM9Z0y5bqauy8SecvSWfNBVwIOD3uIoojp7DurkkYJsGLaptFZ7QcVqm7yoNJxZVe61WrUv0wyfRUjq9ds0YA=s4800-w800-h600" alt="Alberta Falls"><div><span class="lab">Bigger ▶</span><h5>Alberta Falls</h5><p>~1.6 mi RT from Glacier Gorge, gentle climb to a roaring waterfall. Go easy — it's still day-one altitude.</p></div></div>
+        <div class="options">
+          <div class="options-title">If you're feeling… (all Bear Lake corridor, same permit)</div>
+          <div class="opt-grid">
+            <div class="opt easy"><img loading="lazy" src="https://lh3.googleusercontent.com/place-photos/AJRVUZNmRJaB5IrVzm847RnxdPNK-AxWNSwqkS5i0bQlnJv7tmbeDAQaZZYXCjKizhkYAVkaShPAZJxAimkvFLwdjCJiMyKBYKWekZmxQ8PLDzK4UwJ2tDxyybvv_H7yPkc0LagQgiVJXrqFOnnZHIo=s4800-w800-h600" alt="Bear Lake"><div><span class="lab">◀ Easier</span><h5>Bear Lake loop</h5><p>0.6 mi flat, paved sections, iconic Divide views. The mellowest possible first hike.</p></div></div>
+            <div class="opt big"><img loading="lazy" src="https://lh3.googleusercontent.com/place-photos/AJRVUZPrunWvFREwYyJLVG4Qj9Mxh0ha3xRXjC6tQMXFnz99bR7ZXbzcG8gCXmcFJIM9Z0y5bqauy8SecvSWfNBVwIOD3uIoojp7DurkkYJsGLaptFZ7QcVqm7yoNJxZVe61WrUv0wyfRUjq9ds0YA=s4800-w800-h600" alt="Alberta Falls"><div><span class="lab">Bigger ▶</span><h5>Alberta Falls</h5><p>1.6 mi RT from Glacier Gorge, gentle climb to a roaring waterfall. Go easy — it's still day-one altitude.</p></div></div>
+          </div>
         </div>
       </div>
     </div>
@@ -271,16 +295,17 @@
       </div>
       <div class="day-body">
         <div class="stop"><div class="time">7:00 AM</div><div class="info"><h4>Emerald Lake (via Nymph &amp; Dream Lakes)</h4><p>The showpiece: 3.2 mi round trip past three alpine lakes to emerald water under the peaks. Early start beats crowds and storms. Turn around at Dream Lake if the kids fade — it's stunning on its own.</p><div class="meta"><a href="https://maps.google.com/?cid=5784275781083570971" target="_blank">📍 Bear Lake Trailhead</a></div></div></div>
-        <div class="stop"><div class="time">~12:30 PM</div><div class="info"><h4>Drive Trail Ridge Road → Alpine Visitor Center</h4><p>The transfer to Grand Lake IS the scenic event — the highest paved through-road in the U.S., topping ~12,000 ft. Keep the visitor-center stop short (altitude hits hard on day two) and hydrate.</p><div class="meta"><a href="https://maps.google.com/?cid=5369233373686015823" target="_blank">📍 Map</a></div></div></div>
-        <div class="stop"><div class="time">Afternoon</div><div class="info"><h4>Arrive Grand Lake — check in (2 nights)</h4><p>Settle in on the quieter west side.</p></div></div>
-        <div class="fallback" style="margin:8px 0 0;"><b>Good to know:</b> One reservation covers the whole day — once you enter Wednesday on the Bear Lake+ permit, you can drive Trail Ridge and exit at Grand Lake with <b>no second permit</b>.</div>
-      </div>
-      <div class="options">
-        <div class="options-title">If you're feeling…</div>
-        <div class="opt-grid">
-          <div class="opt easy"><img loading="lazy" src="https://lh3.googleusercontent.com/place-photos/AJRVUZO2j5aP-eJKqRp4vNDTrCrNL4EqknKhnf3L57mygDOh4vXfKM_RhdQbayCopcBRSssmEmq3D7BOpLBgRp-vcAOYaCmDV6xjxJOdkNr6cS41o1foT5D5Rrjcin_4oLSPAUqhi8yXolvFKqMHSQ=s4800-w800-h600" alt="Bear Lake corridor"><div><span class="lab">◀ Easier</span><h5>Turn around at Dream Lake</h5><p>2.2 mi RT — still hits Nymph &amp; Dream, the two most photogenic lakes, with half the climb.</p></div></div>
-          <div class="opt big"><img loading="lazy" src="https://lh3.googleusercontent.com/place-photos/AJRVUZOHn1MeVG05W17rgKtaQe7ga5_MaX9T5u2sXK_SjQZxXx6azROt2puDFP6xPzId4eNVY3xJCt9iWAPmc07MOZRalbf7ERa8_kXtkOdDJF35xBnK8BRLGYTXvDBvaYsrsF7OtebOzsYI6B1eLWI=s4800-w800-h600" alt="Lake Haiyaha turquoise water"><div><span class="lab">Bigger ▶</span><h5>Add Lake Haiyaha</h5><p>~4.5–5 mi total — extend from Dream to milky-turquoise water and a fun boulder scramble. (Makes Wed a long day before the drive.)</p></div></div>
+        <div class="options">
+          <div class="options-title">If you're feeling…</div>
+          <div class="opt-grid">
+            <div class="opt easy"><img loading="lazy" src="https://lh3.googleusercontent.com/place-photos/AJRVUZO2j5aP-eJKqRp4vNDTrCrNL4EqknKhnf3L57mygDOh4vXfKM_RhdQbayCopcBRSssmEmq3D7BOpLBgRp-vcAOYaCmDV6xjxJOdkNr6cS41o1foT5D5Rrjcin_4oLSPAUqhi8yXolvFKqMHSQ=s4800-w800-h600" alt="Bear Lake corridor"><div><span class="lab">◀ Easier</span><h5>Turn around at Dream Lake</h5><p>2.2 mi RT — still hits Nymph &amp; Dream, the two most photogenic lakes, with half the climb.</p></div></div>
+            <div class="opt big"><img loading="lazy" src="https://lh3.googleusercontent.com/place-photos/AJRVUZOHn1MeVG05W17rgKtaQe7ga5_MaX9T5u2sXK_SjQZxXx6azROt2puDFP6xPzId4eNVY3xJCt9iWAPmc07MOZRalbf7ERa8_kXtkOdDJF35xBnK8BRLGYTXvDBvaYsrsF7OtebOzsYI6B1eLWI=s4800-w800-h600" alt="Lake Haiyaha turquoise water"><div><span class="lab">Bigger ▶</span><h5>Add Lake Haiyaha</h5><p>4.5–5 mi total — extend from Dream to milky-turquoise water and a fun boulder scramble. (Makes Wed a long day before the drive.)</p></div></div>
+          </div>
         </div>
+        <div class="stop"><div class="time">12:30 PM</div><div class="info"><h4>Drive Trail Ridge Road → Alpine Visitor Center</h4><p>The transfer to Grand Lake IS the scenic event — the highest paved through-road in the U.S., topping 12,000 ft. Keep the visitor-center stop short (altitude hits hard on day two) and hydrate.</p><div class="meta"><a href="https://maps.google.com/?cid=5369233373686015823" target="_blank">📍 Map</a></div></div></div>
+        <div class="stop"><div class="time">Afternoon</div><div class="info"><h4>Arrive Grand Lake — Airbnb cabin (2 nights)</h4><p>Settle in on the quieter west side. <i>Cabin still being researched — to be confirmed.</i></p></div></div>
+        <div class="stop"><div class="time">Late afternoon</div><div class="info"><h4>Optional easy leg-stretcher</h4><p>After Emerald plus the Trail Ridge drive, keep it gentle: stroll the Grand Lake town boardwalk and lakefront — no park entry or permit, right where you're staying. Still have energy? The flat 1-mi Holzwarth Historic Site is a short drive (after 2 PM, no permit needed).</p></div></div>
+        <div class="fallback" style="margin:8px 0 0;"><b>Good to know:</b> One reservation covers the whole day — once you enter Wednesday on the Bear Lake+ permit, you can drive Trail Ridge and exit at Grand Lake with <b>no second permit</b>.</div>
       </div>
     </div>
 
@@ -296,14 +321,14 @@
       </div>
       <div class="day-body">
         <div class="stop"><div class="time">7:30 AM</div><div class="info"><h4>Adams Falls &amp; East Inlet meadow</h4><p>Best scenery-per-mile on the west side: falls in 0.3 mi (steep stone steps), then push into the meadow for moose and July wildflowers. Flexible out-and-back — go as far as energy allows.</p><div class="meta"><a href="https://maps.google.com/?q=E+Inlet+Trail+%26+Adams+Fls+Trl,+Colorado+80510" target="_blank">📍 Map</a><span>Enter before 9 AM = no permit</span></div></div></div>
-        <div class="stop"><div class="time">~1:00 PM</div><div class="info"><h4>Whitewater rafting — Upper Colorado (Kremmling)</h4><p>~55 min west of Grand Lake. The family-friendly Pumphouse → Radium float, mostly Class I/II. Outfitter picks below. Back to Grand Lake for the night.</p><div class="meta"><a href="#rafting">↓ Outfitter picks</a></div></div></div>
-      </div>
-      <div class="options">
-        <div class="options-title">If you're feeling…</div>
-        <div class="opt-grid">
-          <div class="opt easy"><img loading="lazy" src="https://lh3.googleusercontent.com/place-photos/AJRVUZMg9Yb01o6oLhHZScMgvMVub88nReQ8mhJK9EVgOe39axNDv3OziDNlNN7VOosvyom0xyonNytvGfcjUe_A2r7fmsJxMez8WrKfFobHLJ95NrATNCmtN4nE5JzxXVM1_aJq-Utu0kNJ_tv6Pg=s4800-w800-h600" alt="Adams Falls trail"><div><span class="lab">◀ Easier</span><h5>Just the falls (0.6 mi RT)</h5><p>Walk to Adams Falls and back, skip the meadow. Saves energy and time before rafting.</p></div></div>
-          <div class="opt big"><img loading="lazy" src="https://lh3.googleusercontent.com/place-photos/AJRVUZONgLRRPmD-ghieGKxfWMvrr2cAYgbtthvx0WogVf8aoxjDHBobzI7HgcbkbdIm5jHJvEOy874jGVV4Oiwwt8RUFN3k85A_NQnGuvkPKcwhPQ_aSlAbnkKPN3UJkjNiEKhCjbiSYlhM4g0NcQ=s4800-w800-h600" alt="North Inlet Trail"><div><span class="lab">Bigger ▶</span><h5>North Inlet → Cascade Falls</h5><p>~7 mi RT to a waterfall through wildflower-filled burn scar, moose likely. Start by 7 AM to make rafting.</p></div></div>
+        <div class="options">
+          <div class="options-title">If you're feeling…</div>
+          <div class="opt-grid">
+            <div class="opt easy"><img loading="lazy" src="https://lh3.googleusercontent.com/place-photos/AJRVUZMg9Yb01o6oLhHZScMgvMVub88nReQ8mhJK9EVgOe39axNDv3OziDNlNN7VOosvyom0xyonNytvGfcjUe_A2r7fmsJxMez8WrKfFobHLJ95NrATNCmtN4nE5JzxXVM1_aJq-Utu0kNJ_tv6Pg=s4800-w800-h600" alt="Adams Falls trail"><div><span class="lab">◀ Easier</span><h5>Just the falls (0.6 mi RT)</h5><p>Walk to Adams Falls and back, skip the meadow. Saves energy and time before rafting.</p></div></div>
+            <div class="opt big"><img loading="lazy" src="https://lh3.googleusercontent.com/place-photos/AJRVUZONgLRRPmD-ghieGKxfWMvrr2cAYgbtthvx0WogVf8aoxjDHBobzI7HgcbkbdIm5jHJvEOy874jGVV4Oiwwt8RUFN3k85A_NQnGuvkPKcwhPQ_aSlAbnkKPN3UJkjNiEKhCjbiSYlhM4g0NcQ=s4800-w800-h600" alt="North Inlet Trail"><div><span class="lab">Bigger ▶</span><h5>North Inlet → Cascade Falls</h5><p>7 mi RT to a waterfall through wildflower-filled burn scar, moose likely. Start by 7 AM to make rafting.</p></div></div>
+          </div>
         </div>
+        <div class="stop"><div class="time">1:00 PM</div><div class="info"><h4>Whitewater rafting — Upper Colorado (Kremmling)</h4><p>55 min west of Grand Lake. The family-friendly Pumphouse → Radium float, mostly Class I/II. Outfitter picks below. Back to Grand Lake for the night.</p><div class="meta"><a href="#rafting">↓ Outfitter picks</a></div></div></div>
       </div>
     </div>
 
@@ -318,16 +343,16 @@
         <span class="permit cond">No Permit if before 9 AM</span>
       </div>
       <div class="day-body">
-        <div class="stop"><div class="time">7:30 AM</div><div class="info"><h4>Morning hike — Coyote Valley Trail</h4><p>A flat ~1-mi send-off along the headwaters of the Colorado River with Never Summer Mountains views — and the park's best easy moose-and-elk spot at dawn. Quick enough to get you on the road.</p><div class="meta"><a href="https://maps.google.com/?cid=5214331385748172493" target="_blank">📍 Map</a><span>Enter before 9 AM = no permit</span></div></div></div>
-        <div class="stop"><div class="time">~1:00 PM</div><div class="info"><h4>Ziplining — Idaho Springs</h4><p>Drive US-40 over Berthoud Pass to I-70 (~1.5 hrs). Grab lunch in Idaho Springs, then fly the cliffside course. <b>Check Ellie's weight first</b> (see below).</p><div class="meta"><a href="#zipline">↓ Zipline pick</a></div></div></div>
-        <div class="stop"><div class="time">~6:00 PM</div><div class="info"><h4>Check in — DoubleTree by Hilton DEN</h4><p>~40 min from Idaho Springs. Airport shuttle for the morning.</p><div class="meta"><a href="https://maps.google.com/?cid=13766615797633015418" target="_blank">📍 Map</a><span>303-574-1300</span></div></div></div>
-      </div>
-      <div class="options">
-        <div class="options-title">If you're feeling…</div>
-        <div class="opt-grid">
-          <div class="opt easy"><img loading="lazy" src="https://lh3.googleusercontent.com/place-photos/AJRVUZMu6MAwmhHWusf4auFQaqbsEckONBhtw_wOtTmhwiXBPZYqXn-B8lL1quQso97hPVLWugusBcVAOL4j8csAteC6pnG6cyEqolNJwJGoc5phABByzUjK_9slGKlud13cmD3GzUYgGEl_oC-WWQ=s4800-w800-h600" alt="Holzwarth Historic Site cabins"><div><span class="lab">◀ Easier</span><h5>Holzwarth Historic Site</h5><p>1 mi to historic ranch cabins, hands-on for the kids, with elk &amp; moose. Sleep in, hit the road sooner.</p></div></div>
-          <div class="opt big"><img loading="lazy" src="https://lh3.googleusercontent.com/place-photos/AJRVUZNRmIbnUe91uVuKMn624pdEwdssY6EoN_zldtxGynEIboWbe-108Wk8hPJrfCkm8uBa6iLo_hoQEJUoBFnV95FKz8YDZwmFwpYoYBy8--x-2dHZoU9daj5VmI4zSMuvkGBQajunH_FUV5CPsA=s4800-w800-h600" alt="Big Meadows"><div><span class="lab">Bigger ▶</span><h5>Big Meadows (Green Mtn Trail)</h5><p>~3.6 mi RT to a vast alpine meadow, strong moose odds. Start early so it doesn't push the zipline late.</p></div></div>
+        <div class="stop"><div class="time">7:30 AM</div><div class="info"><h4>Morning hike — Coyote Valley Trail</h4><p>A flat 1-mi send-off along the headwaters of the Colorado River with Never Summer Mountains views — and the park's best easy moose-and-elk spot at dawn. Quick enough to get you on the road.</p><div class="meta"><a href="https://maps.google.com/?cid=5214331385748172493" target="_blank">📍 Map</a><span>Enter before 9 AM = no permit</span></div></div></div>
+        <div class="options">
+          <div class="options-title">If you're feeling…</div>
+          <div class="opt-grid">
+            <div class="opt easy"><img loading="lazy" src="https://lh3.googleusercontent.com/place-photos/AJRVUZMu6MAwmhHWusf4auFQaqbsEckONBhtw_wOtTmhwiXBPZYqXn-B8lL1quQso97hPVLWugusBcVAOL4j8csAteC6pnG6cyEqolNJwJGoc5phABByzUjK_9slGKlud13cmD3GzUYgGEl_oC-WWQ=s4800-w800-h600" alt="Holzwarth Historic Site cabins"><div><span class="lab">◀ Easier</span><h5>Holzwarth Historic Site</h5><p>1 mi to historic ranch cabins, hands-on for the kids, with elk &amp; moose. Sleep in, hit the road sooner.</p></div></div>
+            <div class="opt big"><img loading="lazy" src="https://lh3.googleusercontent.com/place-photos/AJRVUZNRmIbnUe91uVuKMn624pdEwdssY6EoN_zldtxGynEIboWbe-108Wk8hPJrfCkm8uBa6iLo_hoQEJUoBFnV95FKz8YDZwmFwpYoYBy8--x-2dHZoU9daj5VmI4zSMuvkGBQajunH_FUV5CPsA=s4800-w800-h600" alt="Big Meadows"><div><span class="lab">Bigger ▶</span><h5>Big Meadows (Green Mtn Trail)</h5><p>3.6 mi RT to a vast alpine meadow, strong moose odds. Start early so it doesn't push the zipline late.</p></div></div>
+          </div>
         </div>
+        <div class="stop"><div class="time">1:00 PM</div><div class="info"><h4>Ziplining — Idaho Springs</h4><p>Drive US-40 over Berthoud Pass to I-70 (1.5 hrs). Grab lunch in Idaho Springs, then fly the cliffside course. <b>Check Ellie's weight first</b> (see below).</p><div class="meta"><a href="#zipline">↓ Zipline pick</a></div></div></div>
+        <div class="stop"><div class="time">6:00 PM</div><div class="info"><h4>Check in — DoubleTree by Hilton DEN</h4><p>40 min from Idaho Springs. Airport shuttle for the morning.</p><div class="meta"><a href="https://maps.google.com/?cid=13766615797633015418" target="_blank">📍 Map</a><span>303-574-1300</span></div></div></div>
       </div>
     </div>
 
@@ -340,24 +365,25 @@
         <span class="permit none">No Permit</span>
       </div>
       <div class="day-body">
-        <div class="stop"><div class="time">AM</div><div class="info"><h4>Shuttle to the airport &amp; fly home</h4><p>That's a wrap. 🏔️</p></div></div>
+        <div class="stop"><div class="time">7:15 AM</div><div class="info"><h4>Drive to DEN &amp; return the National SUV</h4><p>Allow 2 hrs before departure for rental return and terminal transit.</p></div></div>
+        <div class="stop"><div class="time">9:40 AM</div><div class="info"><h4>Fly home — UA619 to Cleveland</h4><p>Departs DEN 9:40 AM, lands Cleveland (CLE) 2:36 PM. That's a wrap. 🏔️</p></div></div>
       </div>
     </div>
   </section>
 
   <hr class="rule">
 
-  <!-- PERMIT TABLE -->
+    <!-- PERMIT TABLE -->
   <section id="permits">
     <div class="sec-head"><h2>Permit Cheat Sheet</h2><span class="tag">Timed Entry</span></div>
     <p class="lead">A timed-entry reservation ($2 on recreation.gov) is <b>separate from your park entrance pass</b> ($35/vehicle for 7 days, or your America the Beautiful pass). Bear Lake Road is enforced 5 a.m.–6 p.m.; the rest of the park is enforced 9 a.m.–2 p.m.</p>
     <table class="ptable">
       <thead><tr><th>Day</th><th>Hike</th><th>Permit Needed</th><th>Best Window</th></tr></thead>
       <tbody>
-        <tr><td>Tue 7/28</td><td>Sprague Lake</td><td class="yes">Timed Entry + Bear Lake Rd</td><td>~3–5 PM entry</td></tr>
+        <tr><td>Tue 7/28</td><td>Sprague Lake</td><td class="yes">Timed Entry + Bear Lake Rd</td><td>1–3 PM entry</td></tr>
         <tr><td>Wed 7/29</td><td>Emerald Lake</td><td class="yes">Timed Entry + Bear Lake Rd</td><td>Earliest (5–7 / 6–8 AM)</td></tr>
-        <tr><td>Thu 7/30</td><td>Adams Falls (west)</td><td class="no">None if in before 9 AM</td><td>Arrive ~7:30 AM</td></tr>
-        <tr><td>Fri 7/31</td><td>Coyote Valley (west)</td><td class="no">None if in before 9 AM</td><td>Arrive ~7:30 AM</td></tr>
+        <tr><td>Thu 7/30</td><td>Adams Falls (west)</td><td class="no">None before 9 AM &mdash; or optional Timed Entry</td><td>In by 9 AM, or book 9&ndash;11 AM</td></tr>
+        <tr><td>Fri 7/31</td><td>Coyote Valley (west)</td><td class="no">None before 9 AM &mdash; or optional Timed Entry</td><td>In by 9 AM, or book 9&ndash;11 AM</td></tr>
         <tr><td>Sat 8/1</td><td>—</td><td class="no">None (departing)</td><td>—</td></tr>
       </tbody>
     </table>
@@ -368,7 +394,7 @@
   <!-- RAFTING -->
   <section id="rafting">
     <div class="sec-head"><h2>Rafting — Kremmling</h2><span class="tag">Thursday PM</span></div>
-    <p class="lead">Book the <b>half-day Upper Colorado float (Pumphouse → Radium)</b> — ~5.5 miles of mostly Class I/II with one Class III, the family-friendly stretch. (Avoid the Clear Creek and Gore Canyon trips — those are advanced.) Both kids clear the age minimums easily.</p>
+    <p class="lead">Book the <b>half-day Upper Colorado float (Pumphouse → Radium)</b> — 5.5 miles of mostly Class I/II with one Class III, the family-friendly stretch. (Avoid the Clear Creek and Gore Canyon trips — those are advanced.) Both kids clear the age minimums easily.</p>
     <div class="recs">
       <div class="rec">
         <div class="rec-hero"><img loading="lazy" src="https://lh3.googleusercontent.com/place-photos/AJRVUZOYrJ4BFvYFtCrL_qZczhUkc0ta5GfTogUzfVj9ZBvTgbAnOFtWc4Ev8IDbCwu12NzYMTerbvXSNQRcBBS5hD2Gd27yoqGeDnd2RlOT-PxBjuHbZ-_HGq5yMCkmeOeczgoczWtg25xyREDhtwk=s4800-w800-h600" alt="Upper Colorado rafting"></div>
@@ -387,7 +413,7 @@
           <div class="badge">Also Great</div>
           <h3>Downstream Adventures</h3>
           <div class="stars">★ 4.9 · 420 reviews · family-owned</div>
-          <p>The only family-owned outfit in town. Stops can include a hot spring and a cave; ~$85/person.</p>
+          <p>The only family-owned outfit in town. Stops can include a hot spring and a cave; $85/person.</p>
           <ul><li><b>Minimum age 3 / 35 lbs</b></li><li>Morning departures are quieter &amp; beat storms</li></ul>
           <div class="links"><a href="https://raftcoloradowhitewater.com/trip/upper-colorado-rafting/" target="_blank">raftcoloradowhitewater.com</a><a href="https://maps.google.com/?q=Downstream+Adventures+Rafting+Kremmling" target="_blank">📍 200 Park Ave · 303-848-4595</a></div>
         </div>
@@ -407,7 +433,7 @@
         <div class="rec-body">
           <div class="badge">The Pick (open Fridays)</div>
           <h3>AVA Cliffside Zipline</h3>
-          <div class="stars">★ 4.9 · 366 reviews · ~3-hr half-day</div>
+          <div class="stars">★ 4.9 · 366 reviews · 3-hr half-day</div>
           <p>Six lines totaling 2,360 ft built into natural cliffs, plus a jungle bridge, a 600-ft dual race line, and an optional 50-ft cliffside free-fall. Open daily 8 AM–6 PM.</p>
           <ul><li><b>Min age 6 · min weight 50 lbs · max 250</b></li><li>Closed-toe shoes required (no sandals)</li><li>Sign waivers online before you arrive</li></ul>
           <div class="links"><a href="https://www.coloradozipline.net/" target="_blank">coloradozipline.net</a><a href="https://maps.google.com/?cid=16924762833600862445" target="_blank">📍 431 CO-103 · 970-423-7031</a></div>
@@ -431,11 +457,11 @@
     <p class="lead">All of July releases at once at 8:00 a.m. MDT on June 1. Wednesday's Bear Lake+ permit is the competitive one — book it first.</p>
     <ol class="steps">
       <li><h4>Before June 1 (this week)</h4><p>Create a <a href="https://www.recreation.gov" target="_blank">recreation.gov</a> account, download the app, save a payment method. Decide which name/vehicle the reservations go under.</p></li>
-      <li><h4>Know exactly what you're buying</h4><p>Two <b>"Timed Entry + Bear Lake Road"</b> reservations: <b>Tue 7/28</b> (afternoon, ~3–5 PM) and <b>Wed 7/29</b> (earliest morning window). One reservation per vehicle per day.</p></li>
-      <li><h4>June 1, ~7:55 a.m. MDT</h4><p>Be logged in on the <a href="https://www.recreation.gov/timed-entry/10086910" target="_blank">RMNP Timed Entry page</a>, tab open and ready.</p></li>
+      <li><h4>Know exactly what you're buying</h4><p>Two <b>"Timed Entry + Bear Lake Road"</b> reservations: <b>Tue 7/28</b> (1–3 PM) and <b>Wed 7/29</b> (earliest morning window). One reservation per vehicle per day.</p></li>
+      <li><h4>June 1, 7:55 a.m. MDT</h4><p>Be logged in on the <a href="https://www.recreation.gov/timed-entry/10086910" target="_blank">RMNP Timed Entry page</a>, tab open and ready.</p></li>
       <li><h4>8:00 a.m. sharp — book Wednesday first</h4><p>Rocky Mountain NP → <b>Timed Entry + Bear Lake Road</b> → <b>Wed July 29</b> → earliest window. Check out fast ($2 fee).</p></li>
-      <li><h4>Then book Tuesday</h4><p>Repeat for <b>Tue July 28</b>, a <b>~3–5 PM</b> window (buffer after your flight + check-in).</p></li>
-      <li><h4>Optional — Thursday/Friday</h4><p>If you can't start the west-side hikes before 9 AM, also grab a regular <b>"Timed Entry"</b> (no Bear Lake) for those dates.</p></li>
+      <li><h4>Then book Tuesday</h4><p>Repeat for <b>Tue July 28</b>, a <b>1–3 PM</b> window — you land at 10:10 AM, so the early afternoon is wide open.</p></li>
+      <li><h4>For flexibility — Thursday &amp; Friday</h4><p>Want the option to sleep in? Grab a regular <b>"Timed Entry"</b> (no Bear Lake) for <b>both</b> dates and pick a <b>9–11 AM</b> window. West-side permits are far less competitive, so this is cheap insurance against a slow morning. Skip only if you're sure you'll be at the gate before 9 AM.</p></li>
       <li><h4>Buy your entrance pass</h4><p>Separate from timed entry — $35/vehicle 7-day pass online, or bring your America the Beautiful pass.</p></li>
       <li><h4>If you miss a window</h4><p>A second batch drops at <b>7:00 p.m. MDT the night before</b> each arrival date. Set a backup alarm.</p></li>
       <li><h4>Save everything offline</h4><p>Screenshot all confirmations — cell service is spotty at the gates.</p></li>
