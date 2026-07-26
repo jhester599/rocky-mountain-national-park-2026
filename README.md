@@ -17,8 +17,8 @@ A shareable, mobile-friendly trip guide for our July 28–August 1, 2026 visit t
 | --- | --- | --- |
 | Tue 7/28 | Estes Park | Arrive DEN, acclimate at Sprague Lake |
 | Wed 7/29 | Estes → Grand Lake | Emerald Lake, then Trail Ridge Road |
-| Thu 7/30 | Grand Lake | Adams Falls morning, Kremmling rafting |
-| Fri 7/31 | Grand Lake → Denver | Coyote Valley, ziplining in Idaho Springs |
+| Thu 7/30 | Grand Lake | North Inlet → Cascade Falls (6:30 AM start), Kremmling rafting |
+| Fri 7/31 | Grand Lake → Denver | Big Meadows hike (7:00 AM start), ziplining in Idaho Springs |
 | Sat 8/1 | Denver | Fly home |
 
 ## ⏰ Don't miss
